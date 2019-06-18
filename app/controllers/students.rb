@@ -1,5 +1,5 @@
 class ApplicationController < ActionController
-  get 'index' do
+  get 'students' do
     @students = Student.all 
     erb :index.html
   end 
