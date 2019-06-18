@@ -1,5 +1,5 @@
 class ApplicationController < ActionController
-  def about
+  def students
     @students = Student.all
     render "index.html"
   end
