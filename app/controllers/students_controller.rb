@@ -2,7 +2,7 @@ class StudentsController < ApplicationController
   
   def students
     @students = Student.all
-    render "index.html"
+    render "/students/index.html"
   end
 
 end 
