@@ -1,4 +1,4 @@
-class ApplicationController < ActionController
+class StudentsController < ApplicationController
   
   def students
     @students = Student.all
